@@ -44,3 +44,4 @@ example
 
 # Données brutes (téléchargées à part)
 tools/*.csv
+store/build/

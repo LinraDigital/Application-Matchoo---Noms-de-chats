@@ -17,7 +17,7 @@ qu'une liste de noms, sans sexe ni statistiques. Donc :
 - Pas d'onglet Tendances ni de fiche détaillée (aucune donnée pour les alimenter).
 - Nom public : « Matchoo - Noms de chats ». Identifiant `fr.linradigital.matchoo.chats`, slug `matchoo-noms-chats`, scheme `matchoo-chats`.
 - Palette lavande dans `src/lib/theme.ts` : violet `#7B5CD6` (principal), `#9B6FF0` (accent), fond `#F4F0FF`, encre `#2A2150`, touche rose `#F58FBF`. Polices : Fredoka + Nunito.
-- **Icône** : patte blanche + cœur rose sur dégradé violet, générée par script (`assets/images/`), à remplacer si Julien en fournit une.
+- **Icône** : image fournie par Julien (chaton endormi, fond blanc), seulement redimensionnée (`assets/images/`). Android adaptatif : premier plan = l'image à 66 %, arrière-plan blanc.
 
 ## Données
 
