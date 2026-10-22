@@ -6,7 +6,7 @@ import { Platform } from 'react-native';
  * Le module est natif : absent d'Expo Go. On le charge donc de façon tolérante,
  * et sans lui l'appli fonctionne simplement sans pubs.
  */
-const SWIPES_ENTRE_PUBS = 3; // TEMPORAIRE (test émulateur) : remettre 25
+const SWIPES_ENTRE_PUBS = 25;
 
 type Admob = typeof import('react-native-google-mobile-ads');
 type Interstitiel = ReturnType<Admob['InterstitialAd']['createForAdRequest']>;
